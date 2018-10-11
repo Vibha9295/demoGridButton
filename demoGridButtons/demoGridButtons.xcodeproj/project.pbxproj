@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		932EDA9921647377009E8AE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932EDA9821647377009E8AE7 /* AppDelegate.swift */; };
+		932EDA9B21647377009E8AE7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932EDA9A21647377009E8AE7 /* ViewController.swift */; };
+		932EDA9E21647377009E8AE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 932EDA9C21647377009E8AE7 /* Main.storyboard */; };
+		932EDAA021647377009E8AE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 932EDA9F21647377009E8AE7 /* Assets.xcassets */; };
+		932EDAA321647377009E8AE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 932EDAA121647377009E8AE7 /* LaunchScreen.storyboard */; };
+		932EDAAE21647377009E8AE7 /* demoGridButtonsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932EDAAD21647377009E8AE7 /* demoGridButtonsTests.swift */; };
+		932EDAB921647377009E8AE7 /* demoGridButtonsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932EDAB821647377009E8AE7 /* demoGridButtonsUITests.swift */; };
+		932EDAC7216477F4009E8AE7 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932EDAC6216477F4009E8AE7 /* CollectionViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		932EDAAA21647377009E8AE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 932EDA8D21647376009E8AE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 932EDA9421647377009E8AE7;
+			remoteInfo = demoGridButtons;
+		};
+		932EDAB521647377009E8AE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 932EDA8D21647376009E8AE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 932EDA9421647377009E8AE7;
+			remoteInfo = demoGridButtons;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		932EDA9521647377009E8AE7 /* demoGridButtons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = demoGridButtons.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		932EDA9821647377009E8AE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		932EDA9A21647377009E8AE7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		932EDA9D21647377009E8AE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		932EDA9F21647377009E8AE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		932EDAA221647377009E8AE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		932EDAA421647377009E8AE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		932EDAA921647377009E8AE7 /* demoGridButtonsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = demoGridButtonsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		932EDAAD21647377009E8AE7 /* demoGridButtonsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demoGridButtonsTests.swift; sourceTree = "<group>"; };
+		932EDAAF21647377009E8AE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		932EDAB421647377009E8AE7 /* demoGridButtonsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = demoGridButtonsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		932EDAB821647377009E8AE7 /* demoGridButtonsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demoGridButtonsUITests.swift; sourceTree = "<group>"; };
+		932EDABA21647377009E8AE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		932EDAC6216477F4009E8AE7 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		932EDA9221647377009E8AE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		932EDAA621647377009E8AE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		932EDAB121647377009E8AE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		932EDA8C21647376009E8AE7 = {
+			isa = PBXGroup;
+			children = (
+				932EDA9721647377009E8AE7 /* demoGridButtons */,
+				932EDAAC21647377009E8AE7 /* demoGridButtonsTests */,
+				932EDAB721647377009E8AE7 /* demoGridButtonsUITests */,
+				932EDA9621647377009E8AE7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		932EDA9621647377009E8AE7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				932EDA9521647377009E8AE7 /* demoGridButtons.app */,
+				932EDAA921647377009E8AE7 /* demoGridButtonsTests.xctest */,
+				932EDAB421647377009E8AE7 /* demoGridButtonsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		932EDA9721647377009E8AE7 /* demoGridButtons */ = {
+			isa = PBXGroup;
+			children = (
+				932EDA9821647377009E8AE7 /* AppDelegate.swift */,
+				932EDA9A21647377009E8AE7 /* ViewController.swift */,
+				932EDA9C21647377009E8AE7 /* Main.storyboard */,
+				932EDA9F21647377009E8AE7 /* Assets.xcassets */,
+				932EDAA121647377009E8AE7 /* LaunchScreen.storyboard */,
+				932EDAA421647377009E8AE7 /* Info.plist */,
+				932EDAC6216477F4009E8AE7 /* CollectionViewCell.swift */,
+			);
+			path = demoGridButtons;
+			sourceTree = "<group>";
+		};
+		932EDAAC21647377009E8AE7 /* demoGridButtonsTests */ = {
+			isa = PBXGroup;
+			children = (
+				932EDAAD21647377009E8AE7 /* demoGridButtonsTests.swift */,
+				932EDAAF21647377009E8AE7 /* Info.plist */,
+			);
+			path = demoGridButtonsTests;
+			sourceTree = "<group>";
+		};
+		932EDAB721647377009E8AE7 /* demoGridButtonsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				932EDAB821647377009E8AE7 /* demoGridButtonsUITests.swift */,
+				932EDABA21647377009E8AE7 /* Info.plist */,
+			);
+			path = demoGridButtonsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		932EDA9421647377009E8AE7 /* demoGridButtons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 932EDABD21647377009E8AE7 /* Build configuration list for PBXNativeTarget "demoGridButtons" */;
+			buildPhases = (
+				932EDA9121647377009E8AE7 /* Sources */,
+				932EDA9221647377009E8AE7 /* Frameworks */,
+				932EDA9321647377009E8AE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = demoGridButtons;
+			productName = demoGridButtons;
+			productReference = 932EDA9521647377009E8AE7 /* demoGridButtons.app */;
+			productType = "com.apple.product-type.application";
+		};
+		932EDAA821647377009E8AE7 /* demoGridButtonsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 932EDAC021647377009E8AE7 /* Build configuration list for PBXNativeTarget "demoGridButtonsTests" */;
+			buildPhases = (
+				932EDAA521647377009E8AE7 /* Sources */,
+				932EDAA621647377009E8AE7 /* Frameworks */,
+				932EDAA721647377009E8AE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				932EDAAB21647377009E8AE7 /* PBXTargetDependency */,
+			);
+			name = demoGridButtonsTests;
+			productName = demoGridButtonsTests;
+			productReference = 932EDAA921647377009E8AE7 /* demoGridButtonsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		932EDAB321647377009E8AE7 /* demoGridButtonsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 932EDAC321647377009E8AE7 /* Build configuration list for PBXNativeTarget "demoGridButtonsUITests" */;
+			buildPhases = (
+				932EDAB021647377009E8AE7 /* Sources */,
+				932EDAB121647377009E8AE7 /* Frameworks */,
+				932EDAB221647377009E8AE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				932EDAB621647377009E8AE7 /* PBXTargetDependency */,
+			);
+			name = demoGridButtonsUITests;
+			productName = demoGridButtonsUITests;
+			productReference = 932EDAB421647377009E8AE7 /* demoGridButtonsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		932EDA8D21647376009E8AE7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = vibha;
+				TargetAttributes = {
+					932EDA9421647377009E8AE7 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					932EDAA821647377009E8AE7 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 932EDA9421647377009E8AE7;
+					};
+					932EDAB321647377009E8AE7 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 932EDA9421647377009E8AE7;
+					};
+				};
+			};
+			buildConfigurationList = 932EDA9021647376009E8AE7 /* Build configuration list for PBXProject "demoGridButtons" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 932EDA8C21647376009E8AE7;
+			productRefGroup = 932EDA9621647377009E8AE7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				932EDA9421647377009E8AE7 /* demoGridButtons */,
+				932EDAA821647377009E8AE7 /* demoGridButtonsTests */,
+				932EDAB321647377009E8AE7 /* demoGridButtonsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		932EDA9321647377009E8AE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				932EDAA321647377009E8AE7 /* LaunchScreen.storyboard in Resources */,
+				932EDAA021647377009E8AE7 /* Assets.xcassets in Resources */,
+				932EDA9E21647377009E8AE7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		932EDAA721647377009E8AE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		932EDAB221647377009E8AE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		932EDA9121647377009E8AE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				932EDA9B21647377009E8AE7 /* ViewController.swift in Sources */,
+				932EDA9921647377009E8AE7 /* AppDelegate.swift in Sources */,
+				932EDAC7216477F4009E8AE7 /* CollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		932EDAA521647377009E8AE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				932EDAAE21647377009E8AE7 /* demoGridButtonsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		932EDAB021647377009E8AE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				932EDAB921647377009E8AE7 /* demoGridButtonsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		932EDAAB21647377009E8AE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 932EDA9421647377009E8AE7 /* demoGridButtons */;
+			targetProxy = 932EDAAA21647377009E8AE7 /* PBXContainerItemProxy */;
+		};
+		932EDAB621647377009E8AE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 932EDA9421647377009E8AE7 /* demoGridButtons */;
+			targetProxy = 932EDAB521647377009E8AE7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		932EDA9C21647377009E8AE7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				932EDA9D21647377009E8AE7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		932EDAA121647377009E8AE7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				932EDAA221647377009E8AE7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		932EDABB21647377009E8AE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		932EDABC21647377009E8AE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		932EDABE21647377009E8AE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C7MWU89FDS;
+				INFOPLIST_FILE = demoGridButtons/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zaptechsolutions.demoGridButtons;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		932EDABF21647377009E8AE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C7MWU89FDS;
+				INFOPLIST_FILE = demoGridButtons/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zaptechsolutions.demoGridButtons;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		932EDAC121647377009E8AE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C7MWU89FDS;
+				INFOPLIST_FILE = demoGridButtonsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zaptechsolutions.demoGridButtonsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/demoGridButtons.app/demoGridButtons";
+			};
+			name = Debug;
+		};
+		932EDAC221647377009E8AE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C7MWU89FDS;
+				INFOPLIST_FILE = demoGridButtonsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zaptechsolutions.demoGridButtonsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/demoGridButtons.app/demoGridButtons";
+			};
+			name = Release;
+		};
+		932EDAC421647377009E8AE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C7MWU89FDS;
+				INFOPLIST_FILE = demoGridButtonsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zaptechsolutions.demoGridButtonsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = demoGridButtons;
+			};
+			name = Debug;
+		};
+		932EDAC521647377009E8AE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C7MWU89FDS;
+				INFOPLIST_FILE = demoGridButtonsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zaptechsolutions.demoGridButtonsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = demoGridButtons;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		932EDA9021647376009E8AE7 /* Build configuration list for PBXProject "demoGridButtons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				932EDABB21647377009E8AE7 /* Debug */,
+				932EDABC21647377009E8AE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		932EDABD21647377009E8AE7 /* Build configuration list for PBXNativeTarget "demoGridButtons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				932EDABE21647377009E8AE7 /* Debug */,
+				932EDABF21647377009E8AE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		932EDAC021647377009E8AE7 /* Build configuration list for PBXNativeTarget "demoGridButtonsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				932EDAC121647377009E8AE7 /* Debug */,
+				932EDAC221647377009E8AE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		932EDAC321647377009E8AE7 /* Build configuration list for PBXNativeTarget "demoGridButtonsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				932EDAC421647377009E8AE7 /* Debug */,
+				932EDAC521647377009E8AE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 932EDA8D21647376009E8AE7 /* Project object */;
+}
